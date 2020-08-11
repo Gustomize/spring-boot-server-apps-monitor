@@ -56,9 +56,7 @@ Já para o(s) cliente(s) é necssária adicionar as dependências do Actuator e 
 
 As demais configurações estarão no arquivo de propriedades.
 
-<div style="float: left;">
-
-**application.properties**
+### **application.properties**
 
 ```properties
 # actuator
@@ -75,11 +73,7 @@ spring.boot.admin.client.url=http://localhost:8081
 
 ```
 
-</div>
-
-<div style="float:right;">
-
-**application.yml**
+### **application.yml**
 
 ```yml
 # actuator
@@ -108,5 +102,3 @@ spring:
             client:
                 url: http://localhost:8081
 ```
-
-</div>
